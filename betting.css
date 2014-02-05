@@ -1,0 +1,151 @@
+body {
+    font:14px Helvetica, Tahoma, verdana, sans-serif;
+}
+
+.betting_slip{
+		width:300px;
+		position: fixed;
+		top:150px;
+		right: 0;  
+		box-shadow: -2px -2px 2px 0px #697a84;
+}
+
+.betting_slip ul {
+    list-style-type:none;
+    padding: 5px;
+}
+
+#title_bar{
+		background-color: #d1dce2;
+		padding: 5px 0 5px 5px;
+		color: #465864;
+		width:100%
+}
+#title_bar td:nth-child(2){
+		padding-left: 70px;
+}
+
+#title_bar td:last-child{
+		text-align:right;
+		padding-right:15px;
+}
+
+#event_title{
+		background-color:#262B3F;
+		text-shadow: 1px 1px 1px #000;
+		color:#4095d2;
+		padding: 5px 10px;
+}
+
+#main_container{
+	color: #FFF;
+	background-color: #000;
+}
+
+#empty_message{
+	text-align:center;
+	padding: 25px 10px;
+	font-weight:200;
+	font-size: 14px;
+	}
+
+#main_content ul{
+		margin: 0;
+}
+	
+#main_content ul li{
+		border-bottom:1px dashed gray;
+		text-align:left;
+		height: 40px;
+		padding: 5px 0 0 5px;
+}
+
+#main_content ul li:last-child{
+		border:none;
+		padding-top: 5px;
+}
+
+#subtitle{
+		font-weight:200;
+		font-size: 12px;
+}
+
+.close{
+    border: 1px red;
+    border-radius: 10px;
+    background: red;
+    margin-right: 2px;
+    font-size: 10px;
+    padding-left: 2px;
+}
+		
+.stake_input{
+		width: 40px;
+		margin-left:15px;
+}
+
+.odds{
+	color:#8fb600;
+	float:right;
+	font-size: 12px;
+	margin: auto 5px;
+	display:inline-block;
+}
+
+.left_side{
+	float:left;
+}
+
+.right_side{
+	float:right;
+
+}
+.stake_value{
+	clear:both;
+	float:right;
+	padding-right:5px;
+	font-size: 12px;
+}
+
+#total_value{
+		float:right;
+		padding: 10px 10px 5px;
+}
+
+#login_alert{
+		background-color: #fef8d4;
+		font-size: 12px;
+		height: 20px;
+		padding: 10px 10px 0;
+		text-align:center; 
+		border-bottom: 2px solid grey;
+}
+
+button{
+		height: 30px;
+		font-size: 12px;
+}
+
+#remove_button{
+ 		background-image: linear-gradient(to bottom, #f8fafb, #cad8e2);		
+ 		width: 100px;
+		font:gray;
+		margin: 5px 10px;
+		border:none;
+}
+
+#confirm{
+		clear:both;
+		padding-left: 5px;
+}
+
+#place_bet{
+	background-image: linear-gradient(to bottom, #ffec64, #e0a611);
+	width: 80px;
+	margin: 5px 0 10px 100px;
+	border:none;
+}
+
+#button_background{
+		background-color: #333333;
+}
